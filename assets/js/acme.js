@@ -75,7 +75,7 @@ $(document).ready(function() {
 					// para recibir las notificaciones en tu endpoint público.
 
 					var orderJSON ={"external_reference": external_reference,
-									"notification_url": "http://localhost/MercadoPago_Examen_QR_Vendedor/api/notifications/index.php",
+									"notification_url": "https://matiasbravo1-mp-instore-qr.herokuapp.com/api/notifications/index.php",
 									"items" : items
 									};
 
